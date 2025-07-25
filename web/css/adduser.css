@@ -1,0 +1,101 @@
+body {
+    background-color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    text-align: center;
+    margin: auto;
+    margin-top: 4%;
+    max-width: 700px;    
+}
+
+.register-table {
+    width: 100%;                                                                                                                                                                                             
+    box-sizing: border-box;
+    border: 1px solid grey;
+    margin: auto;
+    padding: 10px 15px;                                            
+}                                                                                                                                                                                                                                                                 
+
+.table-head {                                                    
+    background-color: #000099;
+    color: white;                          
+    height: 40px;
+    font-size: 20px;
+    width: 100%;
+    padding: 5px 0;
+    margin-bottom: 15px;    
+    text-align: center;
+}
+
+.label {                                                                                                                            
+    text-align: left;
+    padding: 5px 5px;
+    margin-left: 5%;
+    color: black;
+    padding-left: 35px;
+}
+
+
+input[type="text"],input[type="number"],
+input[type="password"] {
+    width: 90%;
+    padding: 10px;
+    font-size: 20px;
+    margin: 3px 0;
+    border: 1px solid #ccc;
+    border-radius: 1px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+button {
+    width: 20%;
+    padding: 8px;
+    font-size: 14px;
+    background-color: #666666;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 2px;
+    margin-top: 10px;
+}
+
+.container {
+    text-align: left;
+}
+
+input ,  label {
+    display: block;
+    margin-left: 0; /* Aligns content to start */
+}
+
+@media (max-width: 600px) {
+    container {
+        padding: 10px;
+    }
+
+    .right-part {
+        width: 100%;
+        max-width: 100%;
+        margin: 10px 0;
+    }
+
+    .register-table {
+        width: 100%;
+    }
+
+    input[type="text"],
+    input[type="password"],input[type="number"],
+    button {
+        font-size: 14px;
+    }
+}
+

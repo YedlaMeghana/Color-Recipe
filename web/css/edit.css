@@ -1,0 +1,82 @@
+body{
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 5%;
+}
+.body{
+    width: 95%;
+   
+}
+.h3{
+    color: rgb(9, 9, 91);
+    text-align:left;
+    margin-left: 15%;
+    margin-top:3%;
+    padding-bottom: 15px;
+    border-bottom: 4px double rgb(174, 172, 172);
+    
+}
+
+.container{
+    margin-left: 15%;
+    text-align: left;
+}
+
+label{
+    width: auto;
+    margin-right: 4em;
+    font-weight: 500;
+}
+
+input[type="number"] , input[type="text"]{
+    height: 27px;
+    width: 29em;
+    margin-bottom: 10px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+#designReference{
+    height: 27px;
+    width: 29em;
+    margin-bottom: 10px;
+}
+
+
+.btn{
+ color: white;
+ font-size: 13px;
+ background-color: #2c2828;  
+ border-radius: 1px;  
+ padding: 8px 32px;
+ cursor: pointer;
+ margin-top: 20px;
+ margin-left: 100%;
+ margin-bottom: 15%;
+}
+
+.searchtable {
+    margin-top: 1em;
+    margin-left: 15%;
+    width: 85%;
+}
+
+.searchtable td {
+    height: 25px;
+    padding: 5px;
+}
+
+/* Adjust individual column widths */
+.searchtable td:nth-child(1) { width: 35%; }
+.searchtable td:nth-child(2) { width: 15%; }
+.searchtable td:nth-child(3) { width: 33%; }
+.searchtable td:nth-child(4) { width: 15%; }
+
+.thead {
+    background-color: #000099;
+    color:white;
+    text-align: center;
+}

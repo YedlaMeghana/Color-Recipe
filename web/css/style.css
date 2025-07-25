@@ -1,0 +1,132 @@
+
+body {
+    background-color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.header,.footer {
+    background-color: #000099;
+    min-height: 30px;
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+}
+
+
+.login-container {
+    margin: 30px auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    max-width: 900px;
+    width: 100%;
+    min-height: 500px;
+}
+
+
+.left-part {
+    flex: 1 1 300px;
+    max-width: 450px;
+    text-align: center;
+    margin: 10px;
+}
+
+.login-img {
+    width: 60%;
+    max-width: 250px;
+    height: auto;
+}
+
+.left-part h2 {
+    color: #000099;
+    font-weight: normal;
+    margin-top: 10px;
+}
+
+
+.right-part {
+    flex: 1 1 300px;
+    max-width: 450px;
+    margin: 10px;
+    border: 1px solid grey;
+    padding: 15px;
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+}
+
+
+.login-table {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.table-head {
+    background-color: #000099;
+    color: white;
+    height: 30px;
+    font-size: 18px;
+}
+
+.label {
+    text-align: left;
+    padding: 5px 5px;
+    color: black;
+}
+
+
+input[type="text"],
+input[type="password"] {
+    width: 90%;
+    padding: 10px;
+    font-size: 16px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 1px;
+}
+
+button {
+    width: 25%;
+    padding: 10px;
+    font-size: 12px;
+    background-color: #666666;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 2px;
+    margin-top: 10px;
+}
+
+
+@media (max-width: 600px) {
+    .login-container {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .left-part, .right-part {
+        width: 100%;
+        max-width: 100%;
+        margin: 10px 0;
+    }
+
+    .login-img {
+        max-width: 60%;
+    }
+
+    .login-table {
+        width: 100%;
+    }
+
+    input[type="text"],
+    input[type="password"],
+    button {
+        font-size: 14px;
+    }
+}
+
+

@@ -1,0 +1,35 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: white;
+}
+
+
+.container{
+    min-height: 400px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-logo{
+    max-width: 550px;
+    width: 100%;
+    display: block;
+    margin:auto;
+    margin-top: 7%; 
+}
+
+.head{
+    font-family:  "Verdana, Geneva, Tahoma, sans-serif",monospace;
+    font-weight: 100;
+    font-size: 72px;
+    color: #0d0d35;
+    display: block;
+    width: 100%; 
+    margin:auto;
+    text-align: center;  
+}
+
+

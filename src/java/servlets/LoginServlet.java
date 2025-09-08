@@ -45,4 +45,10 @@ public class LoginServlet extends HttpServlet {
         }
         
     }
+
+    @Override
+    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
+        // Redirect to login page if accessed via GET
+        response.sendRedirect("index.html");
+    }
 }
